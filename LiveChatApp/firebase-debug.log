@@ -1,0 +1,25 @@
+[debug] [2022-08-04T08:56:35.349Z] ----------------------------------------------------------------------
+[debug] [2022-08-04T08:56:35.351Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gbemi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-04T08:56:35.352Z] CLI Version:   11.4.2
+[debug] [2022-08-04T08:56:35.352Z] Platform:      win32
+[debug] [2022-08-04T08:56:35.352Z] Node Version:  v16.15.1
+[debug] [2022-08-04T08:56:35.353Z] Time:          Thu Aug 04 2022 04:56:35 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-08-04T08:56:35.353Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-04T08:56:35.427Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-04T08:56:35.428Z] > authorizing via signed-in user (gbemioluwagbire.123@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\gbemi\Desktop\LiveChatApp
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

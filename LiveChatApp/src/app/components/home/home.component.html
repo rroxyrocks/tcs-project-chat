@@ -1,0 +1,16 @@
+<h1 *ngIf="user$ |async as user">Welcome to Live Chat App,{{user.email}}</h1> <!--subscribe to the user variable -->
+
+
+<div class = "container">
+
+<div class="chat-list mat-elevation-z5"><div><mat-form-field>
+<input matInput placeholder="Search For Users...">
+
+</mat-form-field>
+</div>
+</div>
+
+
+
+<div class="messages mat-elevation-z5"></div>
+</div>

@@ -1,0 +1,36 @@
+
+
+<mat-toolbar>
+  Live Chat App
+  <ng-container *ngIf="authService.currentUser$|async as user; else loginButton">
+    <button mat-button [matMenuTriggerFor]="userMenu">
+      <mat-icon>account_circle</mat-icon> <!--logout Button -->
+    {{user.displayName}}
+    <mat-icon>expand_more</mat-icon>
+    </button>
+
+  </ng-container >
+  <ng-template #loginButton>
+  <button mat-button routerLink="login">
+    <mat-icon>login</mat-icon> <!--Login Button -->
+  Login
+  </button>
+  </ng-template>
+
+</mat-toolbar>
+
+
+
+
+
+
+<div class="content">
+  <!-- Router Elements -->
+  <router-outlet>
+
+  </router-outlet>
+</div>
+
+<mat-menu #userMenu="matMenu">
+  <button mat-menu-item (click)="logout()">Logout</button>
+</mat-menu>
